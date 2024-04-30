@@ -47,28 +47,3 @@ btnMenu.addEventListener('click', () => {
         iconX.classList.add('d-block');
     }
 })
-
-
-const menuHambur = () => {
-    if (bool) {
-        bool = false;
-        iconX.classList.remove('d-block');
-        iconX.classList.add('d-none');
-        iconHambur.classList.remove('d-none');
-        iconHambur.classList.add('d-block');
-    } else {
-        bool = true;
-        iconHambur.classList.remove('d-block');
-        iconHambur.classList.add('d-none');
-        iconX.classList.remove('d-none');
-        iconX.classList.add('d-block');
-    }
-}
-
-navLink.forEach(n => n.addEventListener('click', menuHambur));
-
-const linkAction = () => {
-    const navMenu = document.getElementById('collapsibleNavId');
-    navMenu.classList.remove('show');
-}
-navLink.forEach(n => n.addEventListener('click', linkAction));
