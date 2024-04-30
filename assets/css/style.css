@@ -2,6 +2,10 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+.nav-link:hover {
+    font-weight: 500!important;
+}
+
 @media (min-width: 997px) {
     .container-nav {
         border-radius: var(--bs-border-radius-pill) !important;
