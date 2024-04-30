@@ -1,0 +1,36 @@
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+@media (min-width: 997px) {
+    .container-nav {
+        border-radius: var(--bs-border-radius-pill) !important;
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+        padding-top: .5rem !important;
+        padding-bottom: .5rem !important;
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+        --bs-border-opacity: 1;
+        box-shadow: var(--bs-box-shadow-sm)!important;
+    }
+}
+
+.text-wrap-balance {
+    text-wrap: balance;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    margin-bottom: 3rem;
+}
+
+.ciudad:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.25em !important;
+    cursor: pointer;
+}

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Espacio Creativo CoWorking en Argentina</title>
+
+    <meta name="description" content="Espacios de coworking en Argentina. Desde escritorios hasta oficinas y sedes enteras, creamos entornos para la productividad, la innovación y la conexión.">
+    <link rel="canonical" href="">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Inicio - Espacio Creativo CoWorking en Argentina">
+    <meta property="og:description" content="Espacios de coworking en Argentina. Desde escritorios hasta oficinas y sedes enteras, creamos entornos para la productividad, la innovación y la conexión.">
+    <meta property="og:image" content="./assets/img/logo.png">
+    <meta property="og:url" content="">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script defer src="./assets/js/main.js"></script>
+</head>
+
+<body>
+    <header class="mt-1 mt-lg-3">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container container-nav py-2 px-4">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo-nav.webp"
+                        alt="Logo de Espacio creativo - Espacio de CoWorking" class="align-text-bottom" width="120"
+                        height="38">
+                </a>
+                <button id="menu" class="navbar-toggler d-lg-none border-0 focus-ring focus-ring-light bg-success px-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" data-bs-theme="dark">
+                    <!-- <span id="hambur" class="navbar-toggler-icon d-block"></span> -->
+                    <svg id="hambur" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-list d-block text-light" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                      </svg>
+                    <svg id="close" xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-x-lg d-none text-light" viewBox="0 0 16 16">
+                        <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                    </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-2">
+                        <li class="nav-item">
+                            <a class="nav-link visually-hidden active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Espacio de coworking</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Ubicaciones
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Buenos Aires</a></li>
+                                <li><a class="dropdown-item" href="#">Rosario</a></li>
+                                <li><a class="dropdown-item" href="#">Córdoba</a></li>
+                                <li><a class="dropdown-item" href="#">Santa Fé</a></li>
+                                <li><a class="dropdown-item" href="#">Mendoza</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-success rounded-pill px-3 fw-medium">Iniciar sesión</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="py-5">
+            <div class="container my-5 px-4 text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-wrap-balance">
+                        <h1 class="fw-medium display-4 mb-2">Juntos podemos mejorar el trabajo</h1>
+                        <p class="fs-5 mb-4">Desde escritorios hasta oficinas y sedes enteras, creamos entornos para la
+                            productividad, la innovación y la conexión.</p>
+                        <a href="" class="btn btn-success btn-lg fs-6 px-5 py-3 rounded-pill icon-link fw-medium">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
+                                class="bi bi-search" viewBox="0 0 16 16">
+                                <path
+                                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                            </svg>
+                            <span>Buscar espacios de trabajo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-lg-5">
+            <img src="./assets/img/hero.webp" alt="Captura de uno de los espacios de coworking de Espacio Creativo" class="img-fluid">
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container my-5 px-4">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <span class="text-success text-uppercase">lo que ofrecemos</span>
+                        <h2 class="display-6 fw-medium my-2">Desde escritorios hasta oficinas y salas enteras</h2>
+                    </div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper mt-5 mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card h-100 border-0 bg-transparent">
+                                <img class="mb-3" src="./assets/img/ss-card-1.webp" alt="Captura de un espacio de coworking de Espacio Creativo" />
+                                <div class="card-body px-0">
+                                    <h3 class="card-title h4">Espacio bajo demanda</h3>
+                                    <p class="card-text text-body-secondary">Espacio de trabajo sin compromiso cuando los
+                                        necesites.</p>
+                                </div>
+                                <a href="" class="card-link link-offset-2 icon-link text-reset fw-medium">
+                                    <span>Conocer espacios por horas</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                        fill="currentColor">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card h-100 border-0 bg-transparent">
+                                <img class="mb-3" src="./assets/img/ss-card-2.webp" alt="Captura de un espacio de coworking de Espacio Creativo" />
+                                <div class="card-body px-0">
+                                    <h3 class="card-title h4">Espacio reservadas</h3>
+                                    <p class="card-text text-body-secondary">Espacio preparadas y listas para entrar a
+                                        trabajar en condiciones seguras y sencillas.</p>
+                                </div>
+                                <a href="" class="card-link link-offset-2 icon-link text-reset fw-medium">
+                                    <span>Conocer espacios mensuales</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                        fill="currentColor">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="card h-100 border-0 bg-transparent">
+                                <img class="mb-3" src="./assets/img/ss-card-3.webp" alt="Captura de un espacio de coworking de Espacio Creativo" />
+                                <div class="card-body px-0">
+                                    <h3 class="card-title h4">Espacio empresariales</h3>
+                                    <p class="card-text text-body-secondary">El primer y único espacio para generar
+                                        comunidad e intercambiar ideas entre CEOS y empresarios.</p>
+                                </div>
+                                <a href="" class="card-link link-offset-2 icon-link text-reset fw-medium">
+                                    <span>Saber más</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                        fill="currentColor">
+                                        <path
+                                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container py-5 px-4">
+                <div class="text-center pb-lg-4">
+                    <span class="text-success text-uppercase">qué está incluido</span>
+                    <h2 class="display-6 fw-medium mt-2 mb-5">Todo lo esencial y más</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 g-lg-4 g-xl-5">
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-desk">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 6h18" />
+                                    <path d="M4 6v13" />
+                                    <path d="M20 19v-13" />
+                                    <path d="M4 10h16" />
+                                    <path d="M15 6v8a2 2 0 0 0 2 2h3" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Espacio sin distracciones</h4>
+                                <p class="card-text text-body-secondary">Espacio privado para concentrarse e innovar,
+                                    sin distracciones.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-wifi">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12 18l.01 0" />
+                                    <path d="M9.172 15.172a4 4 0 0 1 5.656 0" />
+                                    <path d="M6.343 12.343a8 8 0 0 1 11.314 0" />
+                                    <path d="M3.515 9.515c4.686 -4.687 12.284 -4.687 17 0" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Wifi ultrarrápido</h4>
+                                <p class="card-text text-body-secondary">Las redes WiFi preinstaladas te permiten
+                                    conectarte desde el primer día.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-armchair">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M5 11a2 2 0 0 1 2 2v2h10v-2a2 2 0 1 1 4 0v4a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2z" />
+                                    <path d="M5 11v-5a3 3 0 0 1 3 -3h8a3 3 0 0 1 3 3v5" />
+                                    <path d="M6 19v2" />
+                                    <path d="M18 19v2" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Plano flexible</h4>
+                                <p class="card-text text-body-secondary">Modifique el espacio para adaptarlo a sus
+                                    necesidades de reuniones, presentaciones o espacios de trabajo.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-device-analytics">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M3 4m0 1a1 1 0 0 1 1 -1h16a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-16a1 1 0 0 1 -1 -1z" />
+                                    <path d="M7 20l10 0" />
+                                    <path d="M9 16l0 4" />
+                                    <path d="M15 16l0 4" />
+                                    <path d="M8 12l3 -3l2 2l3 -3" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Equipados para la productividad</h4>
+                                <p class="card-text text-body-secondary">Pizarras blancas, cargadores para teléfonos,
+                                    proyectores, televisores de alta definición y mucho más.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-smile">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12zm12 -4v4m-8 -4v4m-4 4h16m-9.995 3h.01m3.99 0h.01" />
+                                    <path d="M10.005 17a3.5 3.5 0 0 0 4 0" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Plazos flexibles</h4>
+                                <p class="card-text text-body-secondary">Puede quedarse unas horas, días o meses.
+                                    Espacio de trabajo privado para sus necesidades.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-wallet">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M17 8v-3a1 1 0 0 0 -1 -1h-10a2 2 0 0 0 0 4h12a1 1 0 0 1 1 1v3m0 4v3a1 1 0 0 1 -1 1h-12a2 2 0 0 1 -2 -2v-12" />
+                                    <path d="M20 12v4h-4a2 2 0 0 1 0 -4h4" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Precios transparentes</h4>
+                                <p class="card-text text-body-secondary">Sólo pagas por el espacio que necesitas, cuando
+                                    lo necesitas, sin cargos ocultos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-clock">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                                    <path d="M12 7v5l3 3" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Acceso 24/7 al edificio</h4>
+                                <p class="card-text text-body-secondary">Su propio escritorio en una oficina compartida,
+                                    con cerradura y acceso 24/7 a los servicios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-lifebuoy">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                    <path d="M15 15l3.35 3.35" />
+                                    <path d="M9 15l-3.35 3.35" />
+                                    <path d="M5.65 5.65l3.35 3.35" />
+                                    <path d="M18.35 5.65l-3.35 3.35" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Soporte técnico</h4>
+                                <p class="card-text text-body-secondary">Nuestro equipo de atención al cliente está
+                                    siempre a una llamada, correo electrónico o chat de distancia.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 bg-transparent">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-spray">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M4 10m0 2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v7a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2z" />
+                                    <path d="M6 10v-4a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v4" />
+                                    <path d="M15 7h.01" />
+                                    <path d="M18 9h.01" />
+                                    <path d="M18 5h.01" />
+                                    <path d="M21 3h.01" />
+                                    <path d="M21 7h.01" />
+                                    <path d="M21 11h.01" />
+                                    <path d="M10 7h1" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-1">
+                                <h4 class="card-title">Limpieza periódica</h4>
+                                <p class="card-text text-body-secondary">Servicio de limpieza profesional diario para
+                                    mantener su lugar impecable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 text-bg-dark">
+            <div class="container py-5 px-4">
+                <div class="row row-cols-1 row-cols-md-2 g-3 align-items-center">
+                    <div class="col">
+                        <p class="fs-5">Con más de 160 espacios en toda la ciudad, te ofrecemos espacio de trabajo dónde
+                            y cómo lo necesites.</p>
+                    </div>
+                    <div class="col text-md-end">
+                        <a href="" class="text-reset link-offset-3 icon-link link-secondary">
+                            <span>Encuentra un espacio cerca de ti</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                fill="currentColor">
+                                <path
+                                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-lg-2 g-3 g-lg-5 align-items-center">
+                    <div class="col">
+                        <div class="text-secondary-emphasis mt-5 pt-5" data-bs-theme="dark">
+                            <div class="d-flex align-items-start gap-3 mb-4 pb-2">
+                                <span class="fs-5">54</span>
+                                <span class="display-3 fw-medium ciudad" id="bsas">Buenos Aires</span>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-4 pb-2">
+                                <span class="fs-5">49</span>
+                                <span class="display-3 fw-medium ciudad" id="rosario">Rosario</span>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-4 pb-2">
+                                <span class="fs-5">22</span>
+                                <span class="display-3 fw-medium ciudad" id="cordoba">Córdoba</span>
+                            </div>
+                            <div class="d-flex align-items-start gap-3 mb-4 pb-2">
+                                <span class="fs-5">15</span>
+                                <span class="display-3 fw-medium ciudad" id="santafe">Santa Fé</span>
+                            </div>
+                            <div class="d-flex align-items-start gap-3">
+                                <span class="fs-5">20</span>
+                                <span class="display-3 fw-medium ciudad" id="mendoza">Mendoza</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-lg-end">
+                        <img src="./assets/img/ciudades.webp" alt="Ciudades" class="img-fluid mt-5 pt-lg-5" loading="lazy">
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container py-5 px-4">
+                <div class="row mb-lg-5">
+                    <div class="col-lg-6">
+                        <span class="text-success text-uppercase">quién utiliza espacio creativo</span>
+                        <h2 class="display-6 fw-medium mt-2 mb-5">Grandes marcas, pequeños equipos y personas</h2>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-3 g-lg-4 g-xl-5">
+                    <div class="col">
+                        <div class="card h-100 bg-transparent border-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-0">
+                                <p class="card-text fs-5">Me encanta usar Espacio Creativo durante unas horas cuando
+                                    tengo una gran cantidad de trabajo individual que debo hacer. Un espacio bajo
+                                    demanda me permite concentrarme, ¡a diferencia de una oficina abierta!</p>
+                                <h3 class="h6 card-title mb-1 fw-semibold">Emiliano Martínez</h3>
+                                <small class="card-subtitle text-body-secondary">Desarrollador backend freelance</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent border-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="currentColor"
+                                    class="icon icon-tabler icons-tabler-filled icon-tabler-star text-warning">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path
+                                        d="M8.243 7.34l-6.38 .925l-.113 .023a1 1 0 0 0 -.44 1.684l4.622 4.499l-1.09 6.355l-.013 .11a1 1 0 0 0 1.464 .944l5.706 -3l5.693 3l.1 .046a1 1 0 0 0 1.352 -1.1l-1.091 -6.355l4.624 -4.5l.078 -.085a1 1 0 0 0 -.633 -1.62l-6.38 -.926l-2.852 -5.78a1 1 0 0 0 -1.794 0l-2.853 5.78z" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-0">
+                                <p class="card-text fs-5">Espacio Creativo es un servicio brillante: fácil de usar,
+                                    asequible y que siempre contribuye a que la sesión de trabajo sea productiva.
+                                    ¡Definitivamente estoy satisfecho con el servicio recibido hasta la fecha!</p>
+                                <h3 class="h6 card-title mb-1 fw-semibold">Cristian Romero</h3>
+                                <small class="card-subtitle text-body-secondary">Consultor de marketing digital,
+                                    Borcelle </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 bg-light">
+            <div class="container py-5 px-4">
+                <div class="text-center pb-lg-5 text-wrap-balance">
+                    <span class="text-success text-uppercase">cómo funciona</span>
+                    <h2 class="display-6 fw-medium mt-2 mb-5">Empezar es tan fácil como 1,2,3...</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 g-lg-4 g-xl-5">
+                    <div class="col">
+                        <div class="card h-100 bg-transparent border-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-circle-number-1">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                    <path d="M10 10l2 -2v8" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-0">
+                                <h3 class="h5 card-title">Reservar fácilmente un espacio</h3>
+                                <p class="card-text">Ya sea reservando instantáneamente en línea o a través de tu gestor
+                                    de cuenta Espacio Creativo, es fácil encontrar el espacio que necesitas.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent border-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-circle-number-2">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                    <path
+                                        d="M10 8h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 0 -1 1v2a1 1 0 0 0 1 1h3" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-0">
+                                <h3 class="h5 card-title">Acceso sencillo y seguro</h3>
+                                <p class="card-text">Cada espacio de Espacio Creativo está protegido con un teclado, al
+                                    que se puede acceder con un código de acceso único disponible solo para usted y sus
+                                    invitados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 bg-transparent border-0">
+                            <span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="icon icon-tabler icons-tabler-outline icon-tabler-circle-number-3">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                                    <path
+                                        d="M10 9a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2h2a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1" />
+                                </svg>
+                            </span>
+                            <div class="card-body px-0">
+                                <h3 class="h5 card-title">Visita guiada</h3>
+                                <p class="card-text">¿Quieres ver primero algunos espacios en persona? Ponte en contacto
+                                    con nuestro equipo de atención al cliente por teléfono, correo electrónico o chat en
+                                    directo para concertar una visita.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5 text-bg-dark">
+            <div class="container py-5 px-4 border-bottom border-secondary text-center text-lg-start">
+                <div class="row row-cols-1 row-cols-md-2 g-3 g-lg-4 g-xl-5 align-items-center">
+                    <div class="col">
+                        <h2 class="display-4 fw-semibold">¿Listo para visitarnos en persona?</h2>
+                    </div>
+                    <div class="col text-md-end">
+                        <a href="" class="btn btn-success btn-lg fs-6 px-5 py-3 rounded-pill fw-medium">
+                            Reservar una visita
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-5 text-bg-dark">
+        <div class="container py-5 px-4">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo-footer.webp"
+                    alt="Logo de Espacio creativo - Espacio de CoWorking" class="mb-5" width="120" height="38">
+            </a>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 g-lg-4 g-xl-5">
+                <div class="col">
+                    <span class="h6 text-secondary-emphasis" data-bs-theme="dark">Espacio de trabajo</span>
+                    <ul class="list-unstyled mt-3 small">
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Co-working
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Espacio para oficinas
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Oficina virtual
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-reset">
+                                Afiliados
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <span class="h6 text-secondary-emphasis" data-bs-theme="dark">Ubicaciones</span>
+                    <ul class="list-unstyled mt-3 small">
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Buenos Aires
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Rosario
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Córdoba
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Santa Fé
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-reset">
+                                Mendoza
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <span class="h6 text-secondary-emphasis" data-bs-theme="dark">Recursos</span>
+                    <ul class="list-unstyled mt-3 small">
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Acerca de
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Carreras
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Política de privacidad
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Accesibilidad
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-reset">
+                                Términos y condiciones
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <span class="h6 text-secondary-emphasis" data-bs-theme="dark">Contacto</span>
+                    <ul class="list-unstyled mt-3 small">
+                        <li class="mb-2">
+                            <a href="mailto:hola@espaciocreativo.com" class="text-decoration-none text-reset">
+                                info@espaciocreativo.com
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="tel:+5491231234567
+                            " class="text-decoration-none text-reset">
+                                +5491231234567
+                            </a>
+                        </li>
+                        <li class="mb-2">
+                            <a href="#" class="text-decoration-none text-reset">
+                                Representantes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none text-reset">
+                                Propietario
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row justify-content-lg-between mt-5 gap-4">
+                <small class="text-secondary-emphasis order-1 order-lg-0" data-bs-theme="dark">
+                    &#169; Espacio Creativo <span id="year"></span>. Todos los derechos reservados
+                </small>
+                <div class="d-flex gap-5 order-0 order-lg-1">
+                    <a href="https://facebook.com/emicastor" target="_blank"
+                        class="text-decoration-none text-reset icon-link">
+                        FB
+                    </a>
+                    <a href="https://twitter.com/emicastor" target="_blank"
+                        class="text-decoration-none text-reset icon-link">
+                        X
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="text-decoration-none text-reset icon-link">
+                        IG
+                    </a>
+                    <a href="https://linkedin.com/emicastor" target="_blank"
+                        class="text-decoration-none text-reset icon-link">
+                        IN
+                    </a>
+                </div>
+            </div>
+            <p class="small mt-5 text-secondary-emphasis" data-bs-theme="dark">Desarrollo web <a href="https://emicastor.com.ar" target="_blank"
+                    class="text-secondary-emphasis" data-bs-theme="dark">Emiliano Castor</a>. Inspiración <a href="https://dribbble.com/shots/15484299/attachments/7258722?mode=media" target="_blank" class="text-reset">Dribbble</a></p>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+
+</html>
